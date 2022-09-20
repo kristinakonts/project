@@ -10,7 +10,7 @@
     justify-content: end;
 
     grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
-    @include unlist;
+    @include unlist(0 -30px 0 0);
   }
 
   &__item {
@@ -22,7 +22,7 @@
 
     padding: $gap $gap-sm;
 
-    letter-spacing: 0.1em;
+    letter-spacing: 0.09em;
 
     font-size: 18px;
 

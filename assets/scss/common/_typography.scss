@@ -13,6 +13,7 @@ html {
 body {
   color: $color-primary;
   background-color: $color-light;
+  letter-spacing: 0.1em;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
   font-family: $font-header;
   font-size: 3.75rem;
   font-weight: 300;
+  line-height: 1.2em;
 }
 
 a {
