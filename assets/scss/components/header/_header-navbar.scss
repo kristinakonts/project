@@ -10,7 +10,7 @@
     justify-content: end;
 
     grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
-    @include unlist(0 -30px 0 0);
+    @include unlist(0 -20px 0 0);
   }
 
   &__item {
